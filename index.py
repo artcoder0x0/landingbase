@@ -3,7 +3,7 @@ import socketserver
 import os
 from urllib.parse import urlparse
 
-PORT = 1001
+PORT = 5000
 
 ROUTE_MAP = {
     "/": "index.html",
